@@ -1,0 +1,346 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
+* { margin: 0; padding: 0; }
+
+body {
+  background: #fff;
+  font-family: "Oswald", sans-serif;
+  min-width: 540px;
+}
+
+.navbar-brand img{
+	width: 200px;
+	margin: 0;
+}
+
+.nav, .navbar{
+	background: #E7E8EA;
+}
+
+.dropdown-toggle{
+	color: #555 !important;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.alert-dropdown{
+	text-align: center;
+}
+
+.alert-dropdown li{
+	padding: 5px 10px;
+}
+
+.alert-dropdown li span{
+	margin-left: 10px;
+}
+
+.navbar-right{
+	padding: 20px 0px 10px 0px;
+}
+
+.navbar-right li{
+	float: right;
+	padding: 3px 20px 3px 0px;
+}
+
+.navbar-right > li > a{
+	float: left;
+	text-align: center;
+}
+
+.divider{
+	width: 100%;
+	height: 1px;
+}
+
+.top-nav > li,
+.top-nav > li > a{
+	padding: 10px 0px;
+	margin-right: 0px;
+	border-radius: 8px;
+}
+
+.top-nav > li:hover,
+.top-nav > li > a:hover,
+.top-nav>li>a:hover, 
+.top-nav>li>a:focus, 
+.top-nav>.open>a, 
+.top-nav>.open>a:hover, 
+.top-nav>.open>a:focus{
+	background: #ddd;
+	color: #333;
+}
+
+.nav li a{
+	padding: 0px 10px;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-nav > .catagory > a{
+	color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav > .catagory > a,
+.navbar-inverse .navbar-nav > .catagory > a:hover{
+	background: transparent;
+}
+.navbar-inverse .navbar-nav > .catagory{
+	background: #165872;
+	font-weight: bold;
+	padding: 10px 0px;
+	margin: 2px 0px;
+}
+.navbar-inverse .navbar-nav > .catagory:hover{
+	background: #0b313f;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover{
+	background: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active{
+	background: #053951;
+}
+
+.navbar-inverse .navbar-nav > .active:hover{
+	background: #021f2c;
+}
+
+.navbar-inverse .navbar-nav > .links{
+	color: #073952 !important;
+}
+
+.navbar-inverse .navbar-nav > .links:hover{
+	background: #44798e;
+	color: #fff !important;
+}
+
+.dropdown-toggle > i{
+	color: #1176BC;
+}
+
+.main-wrapper{
+	overflow: auto;
+	margin-top: 70px;
+	margin-left: 225px;
+}
+
+.chart-wrapper{
+	position: relative;
+	width: 58%;
+	margin-top: 3%;
+}
+
+.chart-container{	
+	width: 500px;
+	position: relative;
+	margin: auto;
+}	
+
+.chart-1{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.chart-2{
+	width: 440px;
+	height: 440px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.chart-3{
+	width: 370px;
+	height: 370px;
+	position: absolute;
+	top: 65px;
+	left: 65px;
+}
+.chart-4{
+	width: 295px;
+	height: 295px;
+	position: absolute;
+	top: 102px;
+	left: 102px;
+}
+.chart-5{
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	top: 140px;
+	left: 140px;
+}
+.chart-6{
+	width: 155px;
+	height: 155px;
+	position: absolute;
+	top: 172px;
+	left: 172px;
+}
+.chart-7{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 205px;
+	left: 205px;
+}
+
+.statistics{
+	position: relative;
+	width: 42%;
+	overflow: auto;
+}
+
+h2{
+	width: 100%;
+	float: right;
+	text-align: left;
+	color: #6D6E72;
+}
+
+h5{
+	font-weight: bold;
+	font-size: 110%;
+	background: #165872;
+	width: 100%;
+	padding: 10px 20px;
+	margin: 0px;
+	color: #DDD;
+}
+
+.stat-block{
+	width: 320px;
+	font-weight: normal;
+	line-height: 100%;
+	height: inherit;
+	overflow: auto;
+	background: #F3F3F5;
+	height: inherit;
+	float: right;
+	margin-right: 10%;
+	margin-bottom: 20px;
+}
+
+.stat-head{
+	background: transparent;
+	margin-bottom: 0px;
+}
+
+.icons{
+	width: 35%;
+	color: #fff;
+	font-size: 80%;
+	text-align: center;
+	height: inherit;
+	padding: 28px 10px;
+}
+
+.form-icon{
+	background: #1176BC;
+}
+
+.batch-icon{
+	background: #F7941D;
+}
+
+.user-icon{
+	background: #89C241;
+}
+
+.details{
+	width: 65%;
+	height: inherit;
+	background: #F3F3F5;
+	font-size: 100%;
+	color: #6D6E72;
+}
+
+.labels{
+	width: 70%;
+}
+
+.labels label{
+	padding: 0px 3px;
+}
+
+.values{
+	width: 30%;
+	font-size: 400%;
+	font-weight: bold;
+}
+
+.form-labels{
+	padding: 22% 6% 0%;
+}
+
+.batch-labels{
+	padding: 19% 6% 0%;
+}
+
+.user-labels{
+	padding: 5% 6% 0%;
+}
+
+.user-labels label, 
+.batch-labels label, 
+.form-labels label{
+
+	font-weight: normal !important;
+}
+
+.form-values{
+	padding: 20% 0% 0%;
+}
+
+.batch-values{
+	padding: 20% 0% 0%;
+}
+
+.user-values{
+	padding: 20% 0% 0%;
+}
+
+@media(max-width:1100px){
+
+	.statistics{
+		width: 100%;
+		margin: auto;
+	}
+
+	.stat-block{
+		width: 420px;
+		float: none;	
+		margin: 20px auto;
+	}
+
+	.chart-wrapper{
+		width: 100%;
+		margin: 5% auto;
+	}
+
+	.icons{
+		padding: 38px 10px;
+	}
+
+	h2{
+		width: 420px;
+	}
+}
+
+@media(max-width:768px){
+
+	.main-wrapper{
+		margin-left: 0px;
+		margin-top: 110px;
+	}
+
+	.stat-block{
+		width: 420px;
+	}
+
+	h2{
+		width: 420px;
+	}
+}
